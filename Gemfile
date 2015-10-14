@@ -45,3 +45,15 @@ group :development do
   gem 'spring'
 end
 
+ # gems for image management
+ # file uploader
+ gem 'carrierwave', '~> 0.10.0'
+ # helping image to downsize
+ gem 'mini_magick', '~> 4.3.6'
+ # for use with cloud apps including AWS
+ gem 'fog', '~> 1.34.0'
+ # for heroku to ease yaml file configs etc
+ gem 'figaro', '~> 1.1.1'
+ # used for unicode
+ gem 'unf', '~> 0.1.4'
+
